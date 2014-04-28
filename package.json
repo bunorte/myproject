@@ -1,0 +1,14 @@
+{
+  "name": "newproject",
+  "version": "0.0.1",
+  "devDependencies": {
+    "grunt": ">0.4.1",
+    "yhd-grunt-less": ">0.1.1",
+    "grunt-contrib-copy": ">0.4.0",
+    "grunt-contrib-cssmin": "~0.6.1",
+    "grunt-open": "~0.2.3",
+    "grunt-contrib-connect": "~0.7.1",
+    "connect-livereload": "~0.4.0",
+    "grunt-contrib-watch": "~0.6.1"
+  }
+}

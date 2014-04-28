@@ -1,0 +1,22 @@
+@import 'common.less';
+@import 'mixins.less';
+.mt(@width:0){margin-top:@width;}
+.mr(@width:0){margin-right:@width;}
+.mb(@width:0){margin-bottom:@width;}
+.ml(@width:0){margin-left:@width;}
+@width: 300px;
+.box{
+	.mt(10px);
+	.mr(10px);
+	.mb(10px);
+	.ml(10px);
+	.border-radius(5px);
+	color:#000;
+	padding:10px;
+	border:1px #f00 solid;
+	width:@width;
+}
+.box2{
+	.box;
+	border:1px #333 solid;
+}
